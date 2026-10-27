@@ -1,0 +1,44 @@
+trainers.html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Trainers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <a href="pokemon.html">Pokemon</a>
+    <a href="trainers.html">Trainers</a>
+    <a href="dashboard.html">Dashboard</a>
+</nav>
+
+<h1>Trainers</h1>
+
+<section>
+    <h2>Alle trainers</h2>
+    <ul id="trainerList"></ul>
+</section>
+
+<section>
+    <h2>Trainerens Pokemon</h2>
+    <ul id="trainerPokemonList"></ul>
+</section>
+
+<section>
+    <h2>Opret ny trainer</h2>
+    <p>Navn: <input type="text" id="trainerName"></p>
+    <p><button id="createButton">Opret</button></p>
+</section>
+
+<section>
+    <h2>Tilføj Pokemon til trainer</h2>
+    <p>Trainer-id: <input type="number" id="trainerId"></p>
+    <p>Pokémon-id: <input type="number" id="pokemonId"></p>
+    <p><button id="addButton">Tilføj</button></p>
+</section>
+
+<script src="trainers.js"></script>
+</body>
+</html>
